@@ -1,5 +1,5 @@
 # --------------------------------if--------------------------------
-# # as order of if and elif statements matter, it's prefferable to make the most general cases the highest
+# as order of if and elif statements matter, it's prefferable to make the most general cases the highest
 # age = float(input("enter age: "))
 # if age>0:
 #     if age>=18:
@@ -46,11 +46,11 @@
 # for i in range(10, 21): # ending index is exclusive
 #   print(i/2)
 
-# for i in range(10, 21, 2): # start, end step
+# for i in range(10, 21, 2): # start, end, step
 #     print(i)
 
 
-# for i in range(20, 10, -2): # start, end step
+# for i in range(20, 10, -2): # start, end, step
 #     print(i)
 
 # problem: create a countdown time that counts from n to 0 and prints happy bday at the end
@@ -58,7 +58,7 @@
 # for seconds in range (10, 0, -1):
 #     print(str(seconds) + " ")
 #     time.sleep(1)
-# print("happy bday")
+# print("happy new year!")
 
 # problem: print the following patterns using loops
 # ***

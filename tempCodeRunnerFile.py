@@ -1,2 +1,1 @@
-
-#     print(food[i])
+# print all substrings of name string variable

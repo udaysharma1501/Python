@@ -40,11 +40,11 @@
 # # --------------------------------typecasting--------------------------------
 
 # --------------------------------user input--------------------------------
-# fullName = input("what is your name: ")
+# fullName = input("what is your name: ") 
 # print("hello " + fullName)
 
 # Age = int(input("what's your age: ")) # classical note: always typecast input going to an interger valued type variable
-# print("your age is: "+str(Age))
+# print("your age is: " + str(Age))
 
 # --------------------------------math functions--------------------------------
 # whatever functions use 'math' as an object use this import
@@ -65,23 +65,23 @@
 ##     1. indexing[]
 ##     2. slice function
 
-# name = "uday sharma"
+name = "uday sharma"
 
-# firstName = name[0:4] # [start:end(exclusive):step] (step is optional and set to 1 by default)
-# print(firstName)
+firstName = name[0:4] # [start:end(exclusive):step] (step is optional and set to 1 by default)
+print(firstName)
 
-# lastName = name[5:12] #ending index is exclusive so we must put (desired index + 1)
-# print(lastName)
+lastName = name[5:12] # ending index is exclusive so we must put (desired index + 1)
+print(lastName)
 
-# butcheredName = name[::2] #no arguments means 0:(max_index)
-# print("butchered name: " + butcheredName)
+butcheredName = name[::2] # no arguments means      0:(max_index):---
+print("butchered name: " + butcheredName)
 
-# reversedName = name[::-1] # giving a negative arg as step starts pointer from right
-# print("reversed name: " + reversedName)
+reversedName = name[::-1] # giving a negative arg as step starts pointer from right
+print("reversed name: " + reversedName)
 
-# #problem: extracting website name
-# website = input("input website name: ") # for example https://www.google.com is inputted
-# slice_variable = slice(12, -4) # slicing 'https://www.' and '.com' from front and back
+#problem: extracting website name
+website = input("input website name: ") # for example https://www.google.com is inputted
+slice_variable = slice(12, -4) # slicing 'https://www.' and '.com' from front and back
 
-# # max index is also taken as zero and mentioning a negative index means refering to an index of that magnitude from the right
-# print(website[slice_variable])
+# max index is also taken as zero and mentioning a negative index means refering to an index of that magnitude from the right
+print(website[slice_variable])

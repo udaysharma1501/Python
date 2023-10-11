@@ -1,17 +1,18 @@
-# stores multiple items in single variable = equivalent of an array in cpp
+# stores multiple items in single variable = equivalent of an array in cpp, except that list can hold hetro data
 
 # food = [1, 2, "pizza", 4.2]
 # food1 = [2, 5, 1, 99, 12, 1]
 # food2 = ["uday", "ria", "max", "bruno"]
 
-# for i in range(0, 4):
+# for i in range(0, 4): # for loop equivalent
 #     print(food[i])
 
-# for x in food:
+# for x in food: # for each loop equivalent
 #     print(x)
 
-# # print(food)
+# print(food) # shortcut
 
+# list functions --------------------------------------
 # food.append("ice cream")
 # food.remove(2)
 # food.pop()
@@ -35,7 +36,7 @@
 # print(food)
 # print(food[0][1]) # expected 'coffee'
 
-# print("printing as table: ")
+# print("\nprinting as table: ")
 # for i in range(3):
 #     for j in range (0, 2):
 #         print(food[i][j], end=" - ")
